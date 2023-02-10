@@ -1,0 +1,32 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,500&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 85px;
+    background-color: black;
+    color: white;
+
+}
+.brand img{
+    width: 75px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+nav ul li{
+    padding: 0 15px;
+}
